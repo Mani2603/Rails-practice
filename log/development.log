@@ -1,0 +1,1489 @@
+Started GET "/" for 127.0.0.1 at 2022-12-26 13:24:14 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/manibharathi26/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/manibharathi26/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 767)
+Completed 200 OK in 11ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 6583)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 13:31:36 +0530
+  
+Zeitwerk::NameError (expected file /home/manibharathi26/RailsProject/RailsApp/app/controllers/articles_controller.rb to define constant ArticlesController, but didn't):
+  
+zeitwerk (2.6.6) lib/zeitwerk/loader/callbacks.rb:25:in `on_file_autoloaded'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:31:in `require'
+activesupport (7.0.4) lib/active_support/inflector/methods.rb:280:in `const_get'
+activesupport (7.0.4) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (7.0.4) lib/active_support/core_ext/string/inflections.rb:74:in `constantize'
+actionpack (7.0.4) lib/action_dispatch/http/request.rb:90:in `controller_class_for'
+actionpack (7.0.4) lib/action_dispatch/request/utils.rb:95:in `action_encoding_template'
+actionpack (7.0.4) lib/action_dispatch/request/utils.rb:83:in `encode'
+actionpack (7.0.4) lib/action_dispatch/request/utils.rb:45:in `set_binary_encoding'
+actionpack (7.0.4) lib/action_dispatch/http/parameters.rb:68:in `path_parameters='
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-12-26 13:31:36 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:31:51 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:31:56 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:03 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-12-26 13:32:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:39 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:40 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:41 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:41 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:41 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:42 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:48 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:49 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:49 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:32:49 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:32:59 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:34:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:04 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:05 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:05 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:05 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:05 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:35:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:35:51 +0530
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:36:19 +0530
+  
+ActionController::RoutingError (uninitialized constant Articles):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:36:20 +0530
+  
+ActionController::RoutingError (uninitialized constant Articles):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:36:22 +0530
+  
+ActionController::RoutingError (uninitialized constant Articles):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:36:22 +0530
+  
+ActionController::RoutingError (uninitialized constant Articles):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:37:22 +0530
+  
+ActionController::RoutingError (uninitialized constant Articles):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:37:24 +0530
+  
+ActionController::RoutingError (uninitialized constant Articles):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:37:28 +0530
+  
+ActionController::RoutingError (uninitialized constant Articles):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:37:33 +0530
+  
+ActionController::RoutingError (uninitialized constant Articles):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:38:47 +0530
+  
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  
+config/routes.rb:6:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:33 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:34 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:35 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:35 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:35 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:36 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:46 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:39:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:41:33 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 58)
+
+
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:41:42 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 29)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:41:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:41:56 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 29)
+
+
+Started GET "/articles/" for 127.0.0.1 at 2022-12-26 13:42:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:42:47 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 28)
+
+
+Started GET "/articles/index" for 127.0.0.1 at 2022-12-26 13:42:56 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 29)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:43:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:43:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:43:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "//articles" for 127.0.0.1 at 2022-12-26 13:44:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:44:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 13:47:55 +0530
+  [1m[35m (7.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (6.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20221226081556_create_articles.rb
+
+
+):
+  
+activerecord (7.0.4) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.4) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.4) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.4) lib/active_record/migration.rb:597:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArticles (20221226081556)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20221226081556"]]
+  [1m[36mTRANSACTION (8.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-12-26 08:20:15.436838"], ["updated_at", "2022-12-26 08:20:15.436838"]]
+  [1m[36mTRANSACTION (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Hello Rails"], ["body", "I am on Rails!"], ["created_at", "2022-12-26 08:22:38.801694"], ["updated_at", "2022-12-26 08:22:38.801694"]]
+  [1m[36mTRANSACTION (5.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Started GET "/articles/1" for 127.0.0.1 at 2022-12-26 14:11:20 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/articles/1"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:11:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles/1" for 127.0.0.1 at 2022-12-26 14:12:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles/1"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:13:11 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:13:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:14:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:17:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:17:48 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:17:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:17:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:17:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:17:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:17:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:17:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/" for ::1 at 2022-12-26 14:22:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 8ms (ActiveRecord: 0.0ms | Allocations: 18735)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:22:12 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 31)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:22:42 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 31)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:22:44 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 31)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:22:46 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 28)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:23:07 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms | Allocations: 18735)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:23:10 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 31)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:23:13 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 31)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:23:16 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 31)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:23:20 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 31)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:24:05 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 1ms (Allocations: 421)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:24:12 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-12-26 14:24:12 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:25:20 +0530
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:6:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:25:39 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 2ms (Allocations: 403)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:25:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:25:54 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 1ms (Allocations: 403)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:25:57 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:26:04 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 13ms (ActiveRecord: 0.0ms | Allocations: 19111)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:26:10 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:26:11 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:26:23 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:26:25 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:26:25 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:26:32 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:26:34 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:26:42 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 11ms (ActiveRecord: 0.0ms | Allocations: 19111)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:26:55 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:27:02 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/" for ::1 at 2022-12-26 14:27:06 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:28:36 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:28:47 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:29:06 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:29:07 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:29:07 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:29:07 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 14:29:40 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 401)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:29:46 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:30:03 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:30:03 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:30:04 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:30:04 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-12-26 14:30:04 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:15:02 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 10ms (ActiveRecord: 0.0ms | Allocations: 19107)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:21:07 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 47)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2022-12-26 15:32:41 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:6:in `show'
+Completed 404 Not Found in 10ms (ActiveRecord: 1.2ms | Allocations: 2631)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=new):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:32:56 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:33:06 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 47)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2022-12-26 15:38:47 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:6:in `show'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.3ms | Allocations: 648)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=new):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles/new" for 127.0.0.1 at 2022-12-26 15:38:48 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:6:in `show'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 492)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=new):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:43:57 +0530
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/controllers/articles_controller.rb:6: syntax error, unexpected integer literal, expecting ']'
+...cle = Article.find(params[:id=1])
+...                              ^
+/home/manibharathi26/RailsProject/RailsApp/app/controllers/articles_controller.rb:26: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/articles_controller.rb:6: syntax error, unexpected integer literal, expecting ']'
+app/controllers/articles_controller.rb:26: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/articles_controller.rb:6: syntax error, unexpected integer literal, expecting ']'
+app/controllers/articles_controller.rb:26: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:41 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 1ms (Allocations: 405)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:42 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:43 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:43 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:43 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:43 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:44 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:44 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:44 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:44 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:59 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 1ms (Allocations: 401)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:44:59 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:00 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:00 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:00 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:00 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:07 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:08 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:10 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:12 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:12 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:12 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:14 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 15:45:20 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/articles/new" for ::1 at 2022-12-26 15:48:21 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:6:in `show'
+Completed 404 Not Found in 5ms (ActiveRecord: 1.3ms | Allocations: 1159)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=new):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/favicon.ico" for ::1 at 2022-12-26 15:48:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/articles/new" for ::1 at 2022-12-26 15:48:31 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:6:in `show'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms | Allocations: 492)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=new):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/" for ::1 at 2022-12-26 15:48:39 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 39)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:56:07 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 18853)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:56:14 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 151)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:56:14 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 151)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:56:14 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:56:15 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:56:15 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:56:15 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:56:15 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:56:16 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:56:16 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length: {
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 15:57:03 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 4ms (Allocations: 547)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:03 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 44)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:04 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 44)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:04 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:10 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 47)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:11 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 47)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:12 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:12 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:13 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:13 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:57:14 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:58:29 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for ::1 at 2022-12-26 15:59:19 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:04:16 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 18859)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected '{', expecting `end'
+...lidates :body, presence: true {
+...                              ^
+/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:5: syntax error, unexpected '}', expecting `end'
+    }
+    ^
+):
+  
+app/models/article.rb:3: syntax error, unexpected '{', expecting `end'
+app/models/article.rb:5: syntax error, unexpected '}', expecting `end'
+app/models/article.rb:3: syntax error, unexpected '{', expecting `end'
+app/models/article.rb:5: syntax error, unexpected '}', expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:36:53 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 18859)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:38:01 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 166)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:38:02 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 157)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:38:02 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 153)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:38:02 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 153)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:38:03 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 153)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:38:03 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 153)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:38:03 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 153)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:38:03 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 153)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-12-26 16:38:04 +0530
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 153)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:41:52 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 18859)
+
+
+  
+SyntaxError (/home/manibharathi26/RailsProject/RailsApp/app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+...es :body, presence: true length:{ 
+...                         ^~~~~~
+):
+  
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/models/article.rb:3: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/articles_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:42 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 2ms (Allocations: 601)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:43 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 47)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:44 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:44 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:44 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 47)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:45 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:45 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 47)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:45 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:45 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:46 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:43:46 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:18 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:18 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:19 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:19 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:24 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:25 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:25 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:26 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:26 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:44:26 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:02 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:04 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:05 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:05 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:06 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:06 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:06 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:06 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:07 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:10 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:15 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:26 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:58 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:45:58 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:46:00 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:46:00 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:46:03 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 1ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:46:19 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:46:20 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:46:20 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:46:20 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:46:21 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-26 16:46:21 +0530
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 39)
+
+
